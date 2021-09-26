@@ -1,3 +1,7 @@
+/*
+ *The engines don’t move the ship at all. The ship stays where it is and the engines move the universe around it.
+ */
+
 #pragma once
 
 // Include standard headers
@@ -13,6 +17,7 @@
 
 // Include GLM
 #include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 using namespace glm;
 
 #include <common/shader.hpp>
