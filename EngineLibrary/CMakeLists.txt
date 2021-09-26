@@ -50,9 +50,10 @@ add_library(EngineLibrary SHARED
 
         common/shader.cpp
         common/shader.hpp
-        
-        shaders/SimpleTransform.vertexshader
-        shaders/SingleColor.fragmentshader
+        common/texture.cpp
+        common/texture.hpp
+        common/controls.cpp
+        common/controls.hpp
 	)
 
 TARGET_LINK_LIBRARIES(EngineLibrary ${ALL_LIBS})

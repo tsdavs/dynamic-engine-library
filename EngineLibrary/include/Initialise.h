@@ -14,6 +14,7 @@
 
 // Include GLFW
 #include <GLFW/glfw3.h>
+GLFWwindow* window;
 
 // Include GLM
 #include <glm/glm.hpp>
@@ -21,6 +22,8 @@
 using namespace glm;
 
 #include <common/shader.hpp>
+#include <common/texture.hpp>
+#include <common/controls.hpp>
 
 namespace Engine
 {
