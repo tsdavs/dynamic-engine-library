@@ -59,4 +59,4 @@ source/CMakeFiles/
 CMakeCache.txt
 *.cmake
 git_access_token.note
-build/
+EngineLibrary/build/
