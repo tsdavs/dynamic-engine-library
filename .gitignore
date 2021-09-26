@@ -60,3 +60,5 @@ CMakeCache.txt
 *.cmake
 git_access_token.note
 EngineLibrary/build/
+Project/build/CMakeFiles/
+project
