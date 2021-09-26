@@ -15,6 +15,8 @@
 #include <glm/glm.hpp>
 using namespace glm;
 
+#include <common/shader.hpp>
+
 namespace Engine
 {
     class Initialise

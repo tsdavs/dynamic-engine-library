@@ -47,6 +47,12 @@ include_directories(
 
 add_library(EngineLibrary SHARED 
 	src/Initialise.cpp
+
+        common/shader.cpp
+        common/shader.hpp
+        
+        shaders/SimpleFragmentShader.fragmentshader
+        shaders/SimpleVertexShader.vertexshader
 	)
 
 TARGET_LINK_LIBRARIES(EngineLibrary ${ALL_LIBS})
